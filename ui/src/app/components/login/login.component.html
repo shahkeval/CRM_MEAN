@@ -1,0 +1,61 @@
+<div class="bg-image"></div>
+<div class="container">
+  <div class="loginFormContainter">
+    <h3>Login</h3>
+    <div class="loginForm">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm)">
+        <mat-form-field appearance="outline">
+          <mat-icon class="me-2" matPrefix>account_circle</mat-icon>
+          <mat-label>Username</mat-label>
+          <input matInput formControlName="username" />
+        </mat-form-field>
+        <!-- username validation error -->
+        <p *ngIf="loginFormControl.username.touched || submitted">
+          <span
+            class="errorText"
+            *ngIf="loginFormControl.username.errors?.required"
+          >
+            *Username is required
+          </span>
+        </p>
+
+        <mat-form-field appearance="outline">
+          <mat-icon class="me-2" matPrefix>lock</mat-icon>
+          <mat-label>Password</mat-label>
+          <input matInput type="password" formControlName="password" />
+        </mat-form-field>
+        <!-- password validation error -->
+        <p *ngIf="loginFormControl.password.touched || submitted">
+          <span
+            class="errorText"
+            *ngIf="loginFormControl.password.errors?.required"
+          >
+            *Password is required
+          </span>
+          <span
+            class="errorText"
+            *ngIf="loginFormControl.password.errors?.minlength"
+          >
+            *Password must be at least 6 characters
+          </span>
+        </p>
+
+        <button
+          mat-button
+          mat-raised-button
+          color="primary"
+          type="submit"
+          [disabled]="loginForm.invalid"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+    <p class="footnote">
+      Don't have an account?
+      <span class="linkText" routerLink="/signup" routerLinkActive="active">
+        Signup
+      </span>
+    </p>
+  </div>
+</div>

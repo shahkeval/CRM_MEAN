@@ -1,0 +1,155 @@
+[
+  {
+    "isAdmin": true,
+    "isActive": true,
+    "name": "Chirag Singh",
+    "username": "CHIRAG SINGH",
+    "password": "ABCdef@1234",
+    "email": "chiragsinghpawar@gmail.com",
+    "phone": "0123456789"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "User 1",
+    "username": "user1",
+    "password": "user1@12345",
+    "email": "user1@gmail.com",
+    "phone": "0129398433"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Arjun Verma",
+    "username": "arjun.verma",
+    "password": "arjun.verma@12345",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9876543210"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Meera Iyer",
+    "username": "meera.iyer",
+    "password": "meera.iyer@12345",
+    "email": "meera.iyer@yahoo.com",
+    "phone": "9123456780"
+  },
+  {
+    "isAdmin": true,
+    "isActive": true,
+    "name": "Rajesh Gupta",
+    "username": "rajesh.gupta",
+    "password": "ABCdef@1234",
+    "email": "rajesh.gupta@gmail.com",
+    "phone": "9988776655"
+  },
+  {
+    "isAdmin": false,
+    "isActive": false,
+    "name": "Ananya Sharma",
+    "username": "ananya.sharma",
+    "password": "ananya.sharma@12345",
+    "email": "ananya.sharma@outlook.com",
+    "phone": "9001122334"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Kunal Mehta",
+    "username": "kunal.mehta",
+    "password": "kunal.mehta@12345",
+    "email": "kunal.mehta@gmail.com",
+    "phone": "9988991122"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Pooja Reddy",
+    "username": "pooja.reddy",
+    "password": "pooja.reddy@12345",
+    "email": "pooja.reddy@yahoo.com",
+    "phone": "9900112233"
+  },
+  {
+    "isAdmin": true,
+    "isActive": false,
+    "name": "Vikram Singh",
+    "username": "vikram.singh",
+    "password": "ABCdef@1234",
+    "email": "vikram.singh@rediffmail.com",
+    "phone": "9822334455"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Neha Jain",
+    "username": "neha.jain",
+    "password": "neha.jain@12345",
+    "email": "neha.jain@gmail.com",
+    "phone": "9811122334"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Rohit Nair",
+    "username": "rohit.nair",
+    "password": "rohit.nair@12345",
+    "email": "rohit.nair@hotmail.com",
+    "phone": "9890011223"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Isha Kapoor",
+    "username": "isha.kapoor",
+    "password": "isha.kapoor@12345",
+    "email": "isha.kapoor@gmail.com",
+    "phone": "9821223345"
+  },
+  {
+    "isAdmin": false,
+    "isActive": false,
+    "name": "Amit Chawla",
+    "username": "amit.chawla",
+    "password": "amit.chawla@12345",
+    "email": "amit.chawla@yahoo.com",
+    "phone": "9933445566"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Tanya Desai",
+    "username": "tanya.desai",
+    "password": "tanya.desai@12345",
+    "email": "tanya.desai@gmail.com",
+    "phone": "9844556677"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Siddharth Patel",
+    "username": "siddharth.patel",
+    "password": "siddharth.patel@12345",
+    "email": "siddharth.patel@gmail.com",
+    "phone": "9798990011"
+  },
+  {
+    "isAdmin": false,
+    "isActive": true,
+    "name": "Rekha Kulkarni",
+    "username": "rekha.kulkarni",
+    "password": "rekha.kulkarni@12345",
+    "email": "rekha.kulkarni@hotmail.com",
+    "phone": "9765544332"
+  },
+  {
+    "isAdmin": true,
+    "isActive": true,
+    "name": "Abhay Malhotra",
+    "username": "abhay.malhotra",
+    "password": "ABCdef@1234",
+    "email": "abhay.malhotra@rediffmail.com",
+    "phone": "9933001122"
+  }
+]
